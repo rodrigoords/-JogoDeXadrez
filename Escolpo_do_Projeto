@@ -1,0 +1,24 @@
+/*
+Projeto
+Programadores: Raiany de Araújo Silva
+			   Rodrigo Durães de Sene
+
+*/
+
+Matriz 8 x 8
+
+Cada tipo peça terá uma struct para gerenciar os atributos.
+
+
+Funções:
+	- Funções:
+	  fOrganizaPecas - Organiza as peças no tabuleiro.
+	  
+	  fBuscaMovimento - Retornar os movimentos possíveis para a peça informada. 
+	   Struct
+	   Local Atual da peça
+	   retonar - vetor com os movimentos possíveis.
+	  
+	  fVerificaMovimentosPossiveis - Retonar os locais livres.
+		vetor de retorno da fBuscaMovimento
+		retorna - Posiçoes que estão disponíveis.
